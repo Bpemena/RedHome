@@ -1,0 +1,46 @@
+.header__navburger {
+	display: none;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	span {
+		position: relative;
+		width: 100%;
+		height: 6px;
+		background-color: rgb(214, 171, 136);
+		&::before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 6px;
+			background-color: rgb(214, 171, 136);
+			transform: translateY(-12px);
+			transition: 0.3s;
+		}
+		&::after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 6px;
+			background-color: rgb(214, 171, 136);
+			transform: translateY(12px);
+			transition: 0.3s;
+		}
+	}
+}
+.header__navburger-active {
+	span {
+		height: 0px;
+		&::before {
+			transform: rotate(45deg);
+		}
+		&::after {
+			transform: rotate(-45deg);
+		}
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.header__navburger {
+		display: flex;
+	}
+}

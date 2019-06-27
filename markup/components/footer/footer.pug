@@ -1,0 +1,51 @@
+footer.footer
+
+	.consultation
+		.page
+			.consultation__man
+				img(src='%=static=%img/content/footer-consultation-man.png').consultation__img
+			.consultation__title RedHome
+			.consultation__text Действительно, разнообразие выбора впечатляет. 
+				|Имея собственную недвижимость, вам будет легче обжиться в новой стране, либо начать предпринимательскую деятельность. 
+				|А для упрощения выбора компания RedHome всегда готова оказать профессиональную помощь.
+				br
+				br
+				|Прямо сейчас заполните форму обратной связи – и мы обязательно свяжемся с вами для уточнения дополнительных вопросов. 
+				|Компания RedHome всегда готова порадовать клиентов выгодными условиями сотрудничества и гарантией положительного результата. Обращайтесь за помощью к профессионалам!
+			a(href='#').consultation__link Консультация специалиста
+
+	.map
+		iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.527191768959!2d14.422038715138735!3d50.076415722126896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94f34bc824e9%3A0xebfbb994c9707139!2zxaB0xJtww6Fuc2vDoSA1NDAvNywgMTIwIDAwIE5vdsOpIE3Em3N0bywg0KfQtdGF0LjRjw!5e0!3m2!1sru!2skz!4v1561525438343!5m2!1sru!2skz" width="600" height="450" frameborder="0" style="border:0" allowfullscreen).map__google
+		form(id='request' action='' method='post').request
+			.form__title Оставьте заявку, всё остальное  мы берем на себя
+			.form__text Сделаем это быстро, выгодно и безопасно
+			input(type='text' name='requestname' placeholder='Ваше имя' form='request' ).form__name
+			br
+			input(type='text' name='requestphone' placeholder='Ваш телефон' form='request' ).form__phone
+			br
+			input(type='submit' name='request__submit' form='request' id='form__submit').form__submit
+			br
+			label.checkbox
+				input(type='checkbox' name='request__checkbox')
+				span.checkbox__custom
+				span.checkbox__text Соглашаюсь с обработкой персональных данных
+
+
+	.page.footer__nav
+		.nav
+			a(href='/').nav__logo.footer__logo
+			a(href='#').nav__link.footer__navlink Покупка жилья	
+			a(href='#').nav__link.footer__navlink Ипотека	
+			a(href='#').nav__link.footer__navlink Инвестиции	
+			a(href='#').nav__link.footer__navlink Отзывы	
+			select.form__select.footer__language
+				option(value='1') RU
+				option(value='2') EN
+			.nav__address.footer__navaddress Štěpánská 540/7 Prague, Czech Republic
+			.nav__phone.footer__navphone +420 228 885 535
+
+	.copyright
+		.page
+			.copyright__title © 2018,RedHome Все права защищены 
+			.copyright__author Создан в 
+				a(href='#').markello Markello

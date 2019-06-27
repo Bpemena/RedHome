@@ -1,0 +1,13 @@
+.buy__param {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+@media only screen and (max-width: 1023px) {
+	.buy__param{
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-top: 10px;
+	}
+}

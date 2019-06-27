@@ -1,0 +1,22 @@
+.reviews__review {
+	width: 340px;
+	height: 320px;
+	margin-bottom: 20px;
+	border: 1px solid rgb(246, 241, 237);
+	text-align: center;
+	transition: all 0.4s;
+	&:hover {
+		box-shadow: 0 20px 40px rgba(70,70,70,0.4);
+	}
+}
+.reviews__review-w {
+	width: 580px;
+}
+@media only screen and (max-width: 1339px) {
+	.reviews__review,
+	.reviews__review-w {
+		width: 100%;
+		height: auto;
+		padding-bottom: 10px;
+	}
+}

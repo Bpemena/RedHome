@@ -1,0 +1,10 @@
+.consultation__title {
+	color: #ffffff;
+	font-family: 'LoraBold';
+	font-size: 40px;
+}
+@media only screen and (max-width: 767px) {
+	.consultation__title {
+		font-size: 30px;
+	}
+}

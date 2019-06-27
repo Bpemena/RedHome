@@ -1,0 +1,12 @@
+.investments__number {
+	font-family: 'LoraBold';
+	font-size: 40px;
+	color: rgb(214, 171, 136);
+  	font-weight: bold;
+	line-height: 1.2;
+}
+@media only screen and (max-width: 767px) {
+	.investments__number {
+		font-size: 30px;
+	}
+}

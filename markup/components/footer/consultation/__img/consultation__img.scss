@@ -1,0 +1,10 @@
+.consultation__img {
+	position: absolute;
+	right: 0;
+	bottom: -358px;
+}
+@media only screen and (max-width: 1279px) {
+	.consultation__img {
+		display: none;
+	}
+}

@@ -1,0 +1,16 @@
+.uprow {
+	display: flex;
+	position: fixed;
+	align-items: center;
+	justify-content: center;
+	width: 56px;
+	height: 56px;
+	background-color: rgb(214, 171, 136);
+	right: 147px;
+	bottom: 222px;
+	border-radius: 50%;
+	transition: all 0.3s;
+	&:hover {
+		box-shadow: 0 0 13px rgba(165,129,100,1);
+	}
+}

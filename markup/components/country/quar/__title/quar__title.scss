@@ -1,0 +1,15 @@
+.quar__title {
+	font-family: 'LoraBold';
+	font-size: 40px;
+	color: rgb(67, 67, 67);
+  	font-weight: bold;
+  	line-height: 1.2;
+  	width: 760px;
+}
+@media only screen and (max-width: 767px) {
+	.quar__title {
+		font-size: 30px;
+		text-align: center;
+		width: 100%;
+	}
+}

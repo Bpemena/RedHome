@@ -1,0 +1,25 @@
+.director__name {
+	font-family: 'MullerMedium';
+	font-size: 18px;
+	color: rgb(67, 67, 67);
+  	line-height: 1.2;
+  	width: 130px;
+  	position: absolute;
+  	right: 380px;
+  	bottom: 95px;
+}
+@media only screen and (max-width: 1919px) {
+	.director__name {
+		right: 0;
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.director__name {
+		bottom: 25px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.director__name {
+		display: none;
+	}
+}

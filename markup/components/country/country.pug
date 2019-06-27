@@ -1,0 +1,52 @@
+.country
+	.why
+		.page
+			.why__title Почему 
+				span в Чехии?
+			.why__table
+				.leftlist
+					.leftlist__text Бесплатное образование в гос. университетах
+					.leftlist__text Самый низкий уровень безработицы в Европе, 5%
+					.leftlist__text Один из самых низких уровней преступности
+					.leftlist__text Высокий темп развития экономики
+					.leftlist__text Низкий уровень инфляции
+
+				.rightlist
+					.rightlist__text.rightlist__text-1 Визовые льготы для собственников жилья
+					.rightlist__text.rightlist__text-2 Собственная валюта, чешская крона
+					.rightlist__text.rightlist__text-3 Развитая инфраструктура и транспортное  сообщение
+					.rightlist__text.rightlist__text-4 Развитая система здравоохранения
+					.rightlist__text.rightlist__text-5 Большие возможности для путешествий
+	.page.country__wall
+		.quar
+			.quar__title Недвижимость в Чехии гарантирует:
+			.quar__table
+				.cell
+					img(src='%=static=%img/content/country-quar-1.png').cell__img
+					.cell__name ежегодный прирост  капитала
+				.cell
+					img(src='%=static=%img/content/country-quar-2.png').cell__img
+					.cell__name до 7% годовых дохода  от сдачи в аренду
+				.cell
+					img(src='%=static=%img/content/country-quar-3.png').cell__img
+					.cell__name получение визовых  льгот
+				.cell
+					img(src='%=static=%img/content/country-quar-4.png').cell__img
+					.cell__name ликвидную  собственность
+				.cell
+					img(src='%=static=%img/content/country-quar-5.png').cell__img
+					.cell__name стабильную жизнь ваших детей
+				.cell
+		form(id='form-view').view
+			.form__title Хотите посмотреть квартиры?
+			.form__text Заполните форму ниже и наши специалисты перезвонят вам в течении 10 минут
+			input(type='text' name='view__name' placeholder='Ваше имя' form='form-view' required).form__name
+			br
+			input(type='text' name='view__phone' placeholder='Ваш телефон' form='form-view' required).form__phone
+			br
+			input(type='submit' value='Отправить').form__submit
+			br
+			label.checkbox
+				input(type='checkbox')
+				span.checkbox__custom
+				span.checkbox__text Соглашаюсь с обработкой персональных данных

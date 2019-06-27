@@ -1,0 +1,19 @@
+.investments__title {
+	font-family: 'LoraBold';
+	font-size: 40px;
+	color: rgb(67, 67, 67);
+  	font-weight: bold;
+  	line-height: 1.2;
+  	width: 620px;
+  	margin-bottom: 20px;
+}
+@media only screen and (max-width: 1023px) {
+	.investments__title {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.investments__title {
+		font-size: 30px;
+	}
+}

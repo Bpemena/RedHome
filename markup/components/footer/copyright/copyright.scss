@@ -1,0 +1,14 @@
+.copyright {
+	background-color: #ffffff;
+	height: 45px;
+	font-family: 'MullerRegular';
+	color: rgb(181, 181, 181);
+	line-height: 45px;
+}
+@media only screen and (max-width: 499px) {
+	.copyright {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+}

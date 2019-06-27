@@ -1,0 +1,13 @@
+.buy {
+	background-image: url(%=static=%content/bg1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 90px;
+	padding-bottom: 88px;
+}
+@media only screen and (max-width: 1023px) {
+	.buy {
+		padding: 20px 0;
+		text-align: center;
+	}
+}

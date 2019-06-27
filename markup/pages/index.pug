@@ -1,0 +1,35 @@
+doctype html
+html(class="no-js", lang="ru")
+
+    head
+        include ../components/head/head.pug
+    body
+        .wrapper
+            //Header
+            include ../components/header/header.pug
+
+            //Country
+            include ../components/country/country.pug
+
+            //Student
+            include ../components/student/student.pug
+
+            //Apartment
+            include ../components/apartment/apartment.pug
+
+            //Company
+            include ../components/company/company.pug
+
+            //Partners
+            include ../components/partners/partners.pug
+
+            //Reviews
+            include ../components/reviews/reviews.pug
+
+            //Footer
+            include ../components/footer/footer.pug
+
+            //Uprow
+            //include ../components/uprow/uprow.pug
+
+        script(src='%=static=%js/main%=hash=%%=min=%.js')

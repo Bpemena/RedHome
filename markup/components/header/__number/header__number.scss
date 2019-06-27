@@ -1,0 +1,12 @@
+.header__number {
+	font-family: 'LoraBold';
+	font-size: 48.766px;
+	color: rgb(214, 171, 136);
+  	font-weight: bold;
+  	line-height: 1.2;
+}
+@media only screen and (max-width: 759px) {
+	.header__number {
+		font-size: 30px;
+	}
+}

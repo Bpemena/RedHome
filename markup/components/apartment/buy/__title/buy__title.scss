@@ -1,0 +1,15 @@
+.buy__title {
+	font-family: 'LoraBold';
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	line-height: 1.2;
+  	span {
+  		color: rgb(214, 171, 136)
+  	}
+}
+@media only screen and (max-width: 767px) {
+	.buy__title {
+		font-size: 30px;
+	}
+}

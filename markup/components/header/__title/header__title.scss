@@ -1,0 +1,18 @@
+.header__title {
+	font-family: 'LoraBold';
+	font-size: 40px;
+	color: rgb(67, 67, 67);
+  	font-weight: bold;
+  	line-height: 1.2;
+}
+@media only screen and (max-width: 759px) {
+	.header__title {
+		width: 100%;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.header__title {
+		font-size: 30px;
+	}
+}

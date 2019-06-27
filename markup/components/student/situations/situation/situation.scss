@@ -1,0 +1,20 @@
+.situation {
+	width: 365px;
+	margin-bottom: 50px;
+}
+@media only screen and (max-width: 1279px) {
+	.situation {
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.situation {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.situation {
+		width: 100%;
+		text-align: center;
+	}
+}

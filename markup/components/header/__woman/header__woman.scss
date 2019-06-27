@@ -1,0 +1,27 @@
+.header__woman {
+	position: absolute;
+	top: 205px;
+	right: 416px;
+}
+@media only screen and (max-width: 1919px) {
+	.header__woman {
+		right: 100px;
+	}
+}
+@media only screen and (max-width: 1365px) {
+	.header__woman {
+		width: 300px;
+		top: 100px;
+	}
+}
+@media only screen and (max-width: 1179px) {
+	.header__woman {
+		width: 200px;
+		right: 50px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.header__woman {
+		display: none;
+	}
+}

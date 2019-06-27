@@ -1,0 +1,14 @@
+.form__text {
+	font-family: 'MullerMedium';
+	font-size: 16px;
+	color: rgb(181, 181, 181);
+ 	line-height: 1.2;
+ 	margin-bottom: 25px;
+}
+@media only screen and (max-width: 519px) {
+	.form__text {
+		width: 100%;
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,19 @@
+.sellform {
+	width: 571px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 20px 40px rgba(70,70,70,0.15);
+	padding-bottom: 20px;
+}
+@media only screen and (max-width: 767px) {
+	.sellform {
+		width: 480px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.sellform {
+		width: 100%;
+	}
+}

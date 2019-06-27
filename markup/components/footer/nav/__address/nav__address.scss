@@ -1,0 +1,17 @@
+.nav__address {
+	width: 180px;
+	font-family: 'MullerRegular';
+	font-size: 16px;
+	line-height: 1.2;
+}
+@media only screen and (max-width: 569px) {
+	.nav__address {
+		width: auto;
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.nav__address {
+		font-size: 12px;
+	}
+}

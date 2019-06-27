@@ -1,0 +1,13 @@
+.view__title {
+	font-family: 'LoraBold';
+	font-size: 26px;
+	color: rgb(67, 67, 67);
+  	font-weight: bold;
+  	line-height: 1.2;
+  	margin-bottom: 15px;
+}
+@media only screen and (max-width: 519px) {
+	.view__title {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,22 @@
+.property {
+	display: flex;
+	color: #ffffff;
+	margin-top: 40px;
+}
+@media only screen and (max-width: 1279px) {
+	.property {
+		margin-right: 10px;
+		width: 25%;
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.property {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.property {
+		width: 100%;
+	}
+}

@@ -1,0 +1,11 @@
+.header__table {
+	display: flex;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 759px) {
+	.header__table {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+}

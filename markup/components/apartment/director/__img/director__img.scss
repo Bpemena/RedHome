@@ -1,0 +1,26 @@
+.director__img {
+	position: absolute;
+	right: 115px;
+	bottom: 115px;
+}
+@media only screen and (max-width: 1919px) {
+	.director__img {
+		right: 0;
+		width: 500px;
+	}
+}
+@media only screen and (max-width: 1367px) {
+	.director__img {
+		width: 400px;
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.director__img {
+		bottom: 45px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.director__img {
+		display: none;
+	}
+}

@@ -1,0 +1,26 @@
+.header {
+	position: relative;
+	padding-top: 400px;
+	padding-bottom: 86px;
+	background-image: url('%=static=%content/header-bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+@media only screen and (max-width: 1365px) {
+	.header {
+		padding-top: 300px;
+		padding-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 1179px) {
+	.header {
+		padding-top: 200px;
+		padding-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 759px) {
+	.header {
+		text-align: center;
+		padding-top: 100px;
+	}
+}

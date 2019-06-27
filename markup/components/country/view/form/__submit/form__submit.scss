@@ -1,0 +1,18 @@
+.form__submit {
+	font-family: 'MullerBold';
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+  	text-transform: uppercase;
+  	line-height: 1.2;
+  	width: 214px;
+  	height: 45px;
+  	background-color: rgb(214, 171, 136);
+  	border-radius: 2px;
+  	border: none;
+  	cursor: pointer;
+  	margin-top: 5px;
+  	transition: all 0.3s;
+  	&:hover {
+  		box-shadow: 0 0 13px rgba(165,129,100,1);
+	}
+}

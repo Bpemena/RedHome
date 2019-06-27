@@ -1,0 +1,13 @@
+.country__wall {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 90px;
+	padding-top: 90px;
+}
+@media only screen and (max-width: 1299px) {
+	.country__wall {
+		flex-direction: column;
+		align-items: center;
+		padding-top: 30px;
+	}
+}

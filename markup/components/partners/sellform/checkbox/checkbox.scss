@@ -1,0 +1,12 @@
+.checkbox {
+	input[type='checkbox'] {
+		display: none;
+		&:checked {
+			&~.checkbox__custom {
+				&::before {
+					background-color: orange;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+.quar__table {
+	width: 760px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+@media only screen and (max-width: 1299px) {
+	.quar__table {
+		width: 100%;
+		margin-top: 20px;
+		justify-content: space-around;
+	}
+}

@@ -1,0 +1,10 @@
+.easy__img {
+	position: absolute;
+	right: 0;
+	bottom: -285px;
+}
+@media only screen and (max-width: 1280px) {
+	.easy__img {
+		display: none;
+	}
+}

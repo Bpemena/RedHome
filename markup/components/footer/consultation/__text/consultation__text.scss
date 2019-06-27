@@ -1,0 +1,17 @@
+.consultation__text {
+	color: #ffffff;
+	font-family: 'MullerMedium';
+	font-size: 16px;
+	width: 830px;
+	margin: 40px 0px;
+}
+@media only screen and (max-width: 1279px) {
+  .consultation__text {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .consultation__text {
+    margin: 10px 0px;
+  }
+}

@@ -1,0 +1,24 @@
+.view {
+	display: flex;
+	flex-direction: column;
+	width: 510px;
+	align-items: center;
+	text-align: center;
+	background-image: url('%=static=%content/form-view-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 0 20px 40px rgba(70,70,70,0.15);
+	padding-bottom: 20px;
+}
+@media only screen and (max-width: 519px) {
+	.view {
+		width: 480px;
+		box-shadow: 0 0 40px rgba(70,70,70,0.15);
+
+	}
+}
+@media only screen and (max-width: 479px) {
+	.view {
+		width: 100%;
+	}
+}

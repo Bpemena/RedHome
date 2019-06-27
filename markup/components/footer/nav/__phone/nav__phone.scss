@@ -1,0 +1,15 @@
+.nav__phone {
+	font-family: 'MullerMedium';
+	font-size: 16px;
+	line-height: 1.2;
+}
+@media only screen and (max-width: 500px) {
+	.nav__phone {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.nav__phone {
+		font-size: 12px;
+	}
+}

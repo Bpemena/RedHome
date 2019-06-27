@@ -1,0 +1,41 @@
+.header__link {
+	font-family: 'MullerBold';
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgb(214, 171, 136);
+	line-height: 1.2;
+	margin-bottom: 290px;
+	display: inline-block;
+	position: relative;
+	&::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(214, 171, 136);
+    bottom: -2px;
+    transition: all 0.2s;
+  }
+  &:hover {
+    cursor: pointer;
+    &::before {
+      box-shadow: 0 0 10px rgba(214,171,136,1);
+    }
+  }
+}
+@media only screen and (max-width: 1365px) {
+  .header__link {
+    margin-bottom: 200px;
+  }
+}
+@media only screen and (max-width: 1179px) {
+  .header__link {
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 759px) {
+  .header__link {
+    margin-bottom: 10px;
+  }
+}

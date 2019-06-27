@@ -1,0 +1,17 @@
+.conditions {
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: space-between;
+	width: 1030px;
+}
+@media only screen and (max-width: 1367px) {
+	.conditions {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.conditions {
+		flex-wrap: wrap;
+		justify-content: space-around;	
+	}
+}

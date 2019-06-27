@@ -1,0 +1,17 @@
+.investments__border {
+	border: 1px solid #f6f1ed;
+	width: 730px;
+	padding: 90px 0px 90px 50px;
+}
+@media only screen and (max-width: 1023px) {
+	.investments__border {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		text-align: center;
+	}
+}

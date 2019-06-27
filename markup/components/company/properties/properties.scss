@@ -1,0 +1,10 @@
+.properties {
+	display: flex;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 1023px) {
+	.properties {
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+}

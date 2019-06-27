@@ -1,0 +1,16 @@
+.sellform__submit {
+	border-radius: 2px;
+	background-color: rgb(214,171,136);
+	width: 244px;
+	height: 54px;
+	border: none;
+	color: #ffffff;
+	font-family: 'MullerBold';
+	font-size: 14px;
+	line-height: 1.2;
+	transition: 0.2s;
+	&:hover {
+		box-shadow: 0 0 13px rgb(214,171,136);
+		cursor: pointer;
+	}
+}

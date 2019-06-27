@@ -1,0 +1,12 @@
+.investments__text {
+	font-family: 'MullerRegular';
+	font-size: 16px;
+	color: rgb(156, 156, 156);
+  	line-height: 1.2;
+  	margin-bottom: 30px;
+}
+@media only screen and (max-width: 767px) {
+	.investments__text {
+		margin-bottom: 10px;
+	}
+}

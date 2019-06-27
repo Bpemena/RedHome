@@ -1,0 +1,13 @@
+.partner {
+	width: 580px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 1229px) {
+	.partner {
+		width: 100%;
+		text-align: center;
+		justify-content: space-around;
+	}
+}

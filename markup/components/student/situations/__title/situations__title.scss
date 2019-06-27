@@ -1,0 +1,17 @@
+.situations__title {
+	font-family: 'LoraBold';
+	font-size: 40px;
+	color: rgb(67, 67, 67);
+  	font-weight: bold;
+  	line-height: 1.2;
+}
+@media only screen and (max-width: 1279px) {
+	.situations__title {
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.situations__title {
+		font-size: 30px;
+	}
+}

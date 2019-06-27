@@ -1,0 +1,15 @@
+.easy {
+	background-image: url(%=static=%content/student-easy-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+@media only screen and (max-width: 1023px) {
+	.easy {
+		background-size: cover;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+}
